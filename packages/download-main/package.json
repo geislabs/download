@@ -25,7 +25,6 @@
         "watch": "tsc --watch"
     },
     "dependencies": {
-        "@geislabs/download-fetch": "^0.0.5",
         "@geislabs/download-type": "^0.0.5",
         "fs-extra": "^10.0.0"
     },
