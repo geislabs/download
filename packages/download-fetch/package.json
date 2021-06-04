@@ -1,0 +1,33 @@
+{
+    "private": false,
+    "name": "@geislabs/download-fetch",
+    "version": "0.0.60",
+    "description": "> TODO: description",
+    "author": "mads hargreave <mads.hargreave@gmail.com>",
+    "homepage": "",
+    "repository": "git://github.com/geislabs/download.git",
+    "license": "ISC",
+    "main": "dist/index.js",
+    "directories": {
+        "dist": "dist",
+        "test": "test"
+    },
+    "files": [
+        "dist"
+    ],
+    "publishConfig": {
+        "registry": "http://registry.npmjs.org/",
+        "access": "public"
+    },
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "tsc",
+        "watch": "tsc --watch"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@geislabs/fetch": "^0.0.60",
+        "@geislabs/download-type": "^0.0.60",
+        "@geislabs/protocol": "^0.0.48"
+    }
+}
