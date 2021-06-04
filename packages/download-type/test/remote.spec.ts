@@ -22,7 +22,8 @@ describe('remote', () => {
         await expect(
             downloader(rootDir)('https://google.com/somefile.json')
         ).resolves.toStrictEqual({
-            filename: 'somefile.json',
+            name: 'somefile.json',
+            key: 'somefile.json',
         })
     })
 

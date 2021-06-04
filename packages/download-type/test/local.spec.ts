@@ -21,7 +21,8 @@ describe('local', () => {
     test('simple', async () => {
         const absolute = path.resolve(__dirname, 'fixtures', 'test.json')
         await expect(downloader(rootDir)(absolute)).resolves.toStrictEqual({
-            filename: 'test.json',
+            name: 'test.json',
+            key: 'test.json',
         })
     })
 
