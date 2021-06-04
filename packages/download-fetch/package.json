@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "@geislabs/download-fetch",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "> TODO: description",
     "author": "mads hargreave <mads.hargreave@gmail.com>",
     "homepage": "",
@@ -25,7 +25,7 @@
         "watch": "tsc --watch"
     },
     "devDependencies": {
-        "@geislabs/download-type": "^0.0.3",
+        "@geislabs/download-type": "^0.0.4",
         "@geislabs/fetch": "^0.0.60",
         "@geislabs/protocol": "^0.0.48"
     }
