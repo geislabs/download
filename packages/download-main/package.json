@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "@geislabs/download",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "> TODO: description",
     "author": "mads hargreave <mads.hargreave@gmail.com>",
     "homepage": "",
@@ -25,7 +25,7 @@
         "watch": "tsc --watch"
     },
     "dependencies": {
-        "@geislabs/download-type": "^0.0.5",
+        "@geislabs/download-type": "^0.0.6",
         "fs-extra": "^10.0.0"
     },
     "devDependencies": {
