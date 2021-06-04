@@ -26,6 +26,10 @@
     },
     "dependencies": {
         "@geislabs/download-fetch": "^0.0.2",
-        "@geislabs/download-type": "^0.0.2"
+        "@geislabs/download-type": "^0.0.2",
+        "fs-extra": "^10.0.0"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^9.0.11"
     }
 }

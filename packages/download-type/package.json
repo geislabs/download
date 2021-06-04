@@ -23,5 +23,9 @@
         "clean": "rimraf dist",
         "build": "tsc",
         "watch": "tsc --watch"
+    },
+    "dependencies": {
+        "@geislabs/file": "^0.0.60",
+        "@geislabs/http": "^0.0.78"
     }
 }
