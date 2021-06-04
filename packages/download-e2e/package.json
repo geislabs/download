@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "@geislabs/download-e2e",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "> TODO: description",
     "author": "mads hargreave <mads.hargreave@gmail.com>",
     "homepage": "",
@@ -17,6 +17,6 @@
     },
     "scripts": {},
     "devDependencies": {
-        "@geislabs/download": "^0.0.7"
+        "@geislabs/download": "^0.0.8"
     }
 }
