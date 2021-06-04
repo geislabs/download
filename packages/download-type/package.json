@@ -27,5 +27,6 @@
     "dependencies": {
         "@geislabs/file": "^0.0.60",
         "@geislabs/http": "^0.0.78"
-    }
+    },
+    "gitHead": "c26cf46d40288add24602f663beaf7824d922e3b"
 }
