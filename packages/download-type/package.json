@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "@geislabs/download-type",
-    "version": "0.0.60",
+    "version": "0.0.2",
     "description": "> TODO: description",
     "author": "mads hargreave <mads.hargreave@gmail.com>",
     "homepage": "",
@@ -23,7 +23,5 @@
         "clean": "rimraf dist",
         "build": "tsc",
         "watch": "tsc --watch"
-    },
-    "dependencies": {},
-    "devDependencies": {}
+    }
 }
